@@ -145,6 +145,7 @@ class WelcomePage extends AbstractWelcomePage<IProps> {
         super.componentDidMount();
 
         document.body.classList.add('welcome-page');
+        console.log('WelcomePage',interfaceConfig.APP_NAME);
         document.title = interfaceConfig.APP_NAME;
 
         if (this.state.generateRoomNames) {
@@ -221,6 +222,7 @@ class WelcomePage extends AbstractWelcomePage<IProps> {
                                 : null
                             }
                         </div>
+                        
                         <h1 className = 'header-text-title'>
                             {t('welcomepage.headerTitle')}
                         </h1>

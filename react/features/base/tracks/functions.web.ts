@@ -223,7 +223,7 @@ export function isToggleCameraEnabled(stateful: IStateful) {
     return isMobileBrowser() && Number(videoInput?.length) > 1;
 }
 /**
- * Applies audio constraints to the local Jitsi audio track.
+ * Applies audio constraints to the local InTouch audio track.
  *
  * @param {Function|Object} stateful - The redux store or {@code getState} function.
  * @param {IAudioSettings} settings - The audio settings to apply.

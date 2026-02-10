@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Tilføj et mødelink",
-        "confirmAddLink": "Vil du tilføje et Jitsi-link til denne begivenhed?",
+        "confirmAddLink": "Vil du tilføje et InTouch-link til denne begivenhed?",
         "error": {
             "appConfiguration": "Kalenderintegration er ikke konfigureret korrekt.",
             "generic": "Der opstod en fejl. Kontrollér dine kalenderindstillinger, eller prøv at opdatere kalenderen.",
@@ -514,7 +514,7 @@
         "token": "token",
         "tokenAuthFailed": "Beklager, du har ikke lov til at deltage i dette møde.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Ugyldig 'aud' værdi. Bør være 'jitsi'.",
+            "audInvalid": "Ugyldig 'aud' værdi. Bør være 'InTouch'.",
             "contextNotFound": "'context' objektet mangler fra payloadet.",
             "expInvalid": "Ugyldig 'exp' værdi.",
             "featureInvalid": "Ugyldig feature: {{feature}}, mangler sandsynligvis at blive implementeret.",
@@ -606,7 +606,7 @@
         "answer": "Svar",
         "audioCallTitle": "Indgående opkald",
         "decline": "Læg på",
-        "productLabel": "fra Jitsi Meet",
+        "productLabel": "fra InTouch Meet",
         "videoCallTitle": "Indgående videoopkald"
     },
     "info": {
@@ -824,7 +824,7 @@
         "desktopMutedRemotelyTitle": "Din skærmdeling er blevet afbrudt af {{participantDisplayName}}",
         "disabledIframe": "Embedding er kun for demo formål, så dette opkald vil afslutte om {{timeout}} minutter.",
         "disabledIframeSecondaryNative": "Indlejring af {{domain}} er kun ment til demo formål, dette møde bliver defor termineret om {{timeout}} minutter.",
-        "disabledIframeSecondaryWeb": "Indlejring af {{domain}} er kun ment til demo formål, dette møde bliver defor termineret om {{timeout}} minutter. Benyt venligst <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a> til produktionsindlejring!",
+        "disabledIframeSecondaryWeb": "Indlejring af {{domain}} er kun ment til demo formål, dette møde bliver defor termineret om {{timeout}} minutter. Benyt venligst <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>InTouch as a Service</a> til produktionsindlejring!",
         "disconnected": "frakoblet",
         "displayNotifications": "Vis notifikationer for",
         "dontRemindMe": "Mind mig ikke om",
@@ -876,7 +876,7 @@
         "noiseSuppressionDesktopAudioDescription": "Støjdæmpning kan ikke aktiveres, mens du deler desktop lyd, skal du deaktivere den og prøve igen.",
         "noiseSuppressionFailedTitle": "Kunne ikke starte støjdæmpning",
         "noiseSuppressionStereoDescription": "Stereo-lydstøjdæmpning understøttes i øjeblikket ikke.",
-        "oldElectronClientDescription1": "Du ser ud til at bruge en gammel version af Jitsi Meet klienten, som har kendt sikkerhedssårbarheder. Sørg for at opdatere til vores",
+        "oldElectronClientDescription1": "Du ser ud til at bruge en gammel version af InTouch Meet klienten, som har kendt sikkerhedssårbarheder. Sørg for at opdatere til vores",
         "oldElectronClientDescription2": "Seneste build",
         "oldElectronClientDescription3": "nu!",
         "openChat": "Åben chatten",
@@ -1661,15 +1661,15 @@
         "go": "GÅ TIL",
         "goSmall": "GÅ TIL",
         "headerSubtitle": "Fortrolige onlinemøder",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "InTouch Meet",
         "info": "Opkaldsinfo",
-        "jitsiOnMobile": "Jitsi på mobilen- download vores apps og start et møde hvor som helst",
+        "jitsiOnMobile": "InTouch på mobilen- download vores apps og start et møde hvor som helst",
         "join": "Opret / Deltag",
         "logo": {
             "calendar": "Kalenderlogo",
             "desktopPreviewThumbnail": "Desktop preview miniaturebillede",
             "googleLogo": "Google Logo",
-            "logoDeepLinking": "Jitsi Meet logo",
+            "logoDeepLinking": "InTouch Meet logo",
             "microsoftLogo": "Microsoft Logo",
             "policyLogo": "Politiklogo"
         },

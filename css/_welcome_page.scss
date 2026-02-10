@@ -56,7 +56,7 @@ body.welcome-page {
             font-size: 1.25rem;
             font-weight: 600;
             line-height: 1.625rem;
-            margin: 16px 0 32px 0;
+            margin: 12px 0 32px 0;
             text-align: $welcomePageHeaderTextAlign;
 
         }
@@ -113,6 +113,22 @@ body.welcome-page {
             }
         }
 
+        ::-webkit-input-placeholder {
+            color: #253858;
+        }
+
+        ::-moz-placeholder {
+            color: #253858;
+        }
+
+        :-ms-input-placeholder {
+            color: #253858;
+        }
+
+        ::-ms-input-placeholder {
+            color: #253858;
+        }
+
         ::placeholder {
             color: #253858;
         }
@@ -123,6 +139,8 @@ body.welcome-page {
             max-width: 480px;
             width: $welcomePageEnterRoomWidth;
             z-index: $zindex2;
+            height: -webkit-fit-content;
+            height: -moz-fit-content;
             height: fit-content;
 
             .join-meeting-container {

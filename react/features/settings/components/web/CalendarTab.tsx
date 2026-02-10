@@ -21,7 +21,7 @@ import logger from '../../logger';
 interface IProps extends WithTranslation {
 
     /**
-     * The name given to this Jitsi Application.
+     * The name given to this InTouch Application.
      */
     _appName: string;
 

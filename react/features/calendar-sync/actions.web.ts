@@ -90,7 +90,7 @@ export function clearCalendarIntegration() {
 }
 
 /**
- * Asks confirmation from the user to add a Jitsi link to the calendar event.
+ * Asks confirmation from the user to add a InTouch link to the calendar event.
  *
  * NOTE: Currently there is no confirmation prompted on web, so this is just
  * a relaying method to avoid flow problems.

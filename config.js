@@ -184,7 +184,7 @@ var config = {
 
     // audioLevelsInterval: 200,
 
-    // Enabling this will run the lib-jitsi-meet no audio detection module which
+    // Enabling this will run the lib-InTouch-meet no audio detection module which
     // will notify the user if the current selected microphone has no audio
     // input and will suggest another valid device if one is present.
     enableNoAudioDetection: true,
@@ -198,7 +198,7 @@ var config = {
     // used to display more statistics about the connection (IP, Port, protocol, etc).
     // disableShowMoreStats: true,
 
-    // Enabling this will run the lib-jitsi-meet noise detection module which will
+    // Enabling this will run the lib-InTouch-meet noise detection module which will
     // notify the user if there is noise, other than voice, coming from the current
     // selected microphone. The purpose it to let the user know that the input could
     // be potentially unpleasant for other meeting participants.
@@ -342,7 +342,7 @@ var config = {
     // maxFullResolutionParticipants: 2,
 
     // w3c spec-compliant video constraints to use for video capture. Currently
-    // used by browsers that return true from lib-jitsi-meet's
+    // used by browsers that return true from lib-InTouch-meet's
     // util#browser#usesNewGumFlow. The constraints are independent from
     // this config's resolution value. Defaults to requesting an ideal
     // resolution of 720p.
@@ -655,7 +655,7 @@ var config = {
     // Disables or enables RTX (RFC 4588) (defaults to false).
     // disableRtx: false,
 
-    // Moves all Jitsi Meet 'beforeunload' logic (cleanup, leaving, disconnecting, etc) to the 'unload' event.
+    // Moves all InTouch Meet 'beforeunload' logic (cleanup, leaving, disconnecting, etc) to the 'unload' event.
     // disableBeforeUnloadHandlers: true,
 
     // Disables or enables TCC support in this client (default: enabled).
@@ -668,7 +668,7 @@ var config = {
     // the bridge going down.
     // enableForcedReload: true,
 
-    // Use TURN/UDP servers for the jitsi-videobridge connection (by default
+    // Use TURN/UDP servers for the InTouch-videobridge connection (by default
     // we filter out TURN/UDP because it is usually not needed since the
     // bridge itself is reachable via UDP)
     // useTurnUdp: false
@@ -915,7 +915,7 @@ var config = {
     // buttons varies from 2 buttons to 8 buttons. Every array in the mainToolbarButtons array will replace the
     // corresponding default buttons configuration matched by the number of buttons specified in the array. Arrays with
     // more than 8 buttons or less then 2 buttons will be ignored. When there there isn't an override for a certain
-    // configuration (for example when 3 buttons are displayed) the default jitsi-meet configuration will be used.
+    // configuration (for example when 3 buttons are displayed) the default InTouch-meet configuration will be used.
     // The order of the buttons in the array is preserved.
     // mainToolbarButtons: [
     //     [ 'microphone', 'camera', 'desktop', 'chat', 'raisehand', 'reactions', 'participants-pane', 'tileview' ],
@@ -931,7 +931,7 @@ var config = {
     // reducedUIEnabled: true,
 
     // Overrides the buttons displayed in the main toolbar for reduced UI.
-    // When there isn't an override for a certain configuration the default jitsi-meet configuration will be used.
+    // When there isn't an override for a certain configuration the default InTouch-meet configuration will be used.
     // The order of the buttons in the array is preserved.
     // reducedUImainToolbarButtons: [ 'microphone', 'camera' ],
 
@@ -1048,7 +1048,7 @@ var config = {
 
     // Whether to enable stats collection or not in the TraceablePeerConnection.
     // This can be useful for debugging purposes (post-processing/analysis of
-    // the webrtc stats) as it is done in the jitsi-meet-torture bandwidth
+    // the webrtc stats) as it is done in the InTouch-meet-torture bandwidth
     // estimation tests.
     // gatherStats: false,
 
@@ -1186,7 +1186,7 @@ var config = {
     // Logs that should go be passed through the 'log' event if a handler is defined for it
     // apiLogLevels: ['warn', 'log', 'error', 'info', 'debug'],
 
-    // Information about the jitsi-meet instance we are connecting to, including
+    // Information about the InTouch-meet instance we are connecting to, including
     // the user region as seen by the server.
     // deploymentInfo: {
     //     shard: "shard1",
@@ -1295,8 +1295,8 @@ var config = {
     //
     //     // The desktop deeplinking config, disabled by default.
     //     desktop: {
-    //         appName: 'Jitsi Meet',
-    //         appScheme: 'jitsi-meet,
+    //         appName: 'InTouch Meet',
+    //         appScheme: 'InTouch-meet,
     //         download: {
     //             linux:
     //               'https://github.com/jitsi/jitsi-meet-electron/releases/latest/download/jitsi-meet-x86_64.AppImage',
@@ -1314,7 +1314,7 @@ var config = {
 
     //     // The ios deeplinking config.
     //     ios: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'InTouch Meet',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
     //         appScheme: 'org.jitsi.meet',
     //         // Custom URL for downloading ios mobile app.
@@ -1323,7 +1323,7 @@ var config = {
 
     //     // The android deeplinking config.
     //     android: {
-    //         appName: 'Jitsi Meet',
+    //         appName: 'InTouch Meet',
     //         // Specify mobile app scheme for opening the app from the mobile browser.
     //         appScheme: 'org.jitsi.meet',
     //         // Custom URL for downloading android mobile app.
@@ -1664,7 +1664,7 @@ var config = {
 
     /**
      * This property can be used to alter the generated meeting invite links (in combination with a branding domain
-     * which is retrieved internally by jitsi meet) (e.g. https://meet.jit.si/someMeeting
+     * which is retrieved internally by InTouch meet) (e.g. https://meet.jit.si/someMeeting
      * can become https://brandedDomain/roomAlias)
      */
     // brandingRoomAlias: null,

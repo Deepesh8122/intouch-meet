@@ -6,7 +6,7 @@ import { setPictureInPictureEnabled } from '../mobile/picture-in-picture/functio
 const { Dropbox } = NativeModules;
 
 /**
- * Action to authorize the Jitsi Recording app in dropbox.
+ * Action to authorize the InTouch Recording app in dropbox.
  *
  * @param {any} _appKey - Used on web.
  * @param {any} _redirectURI - Used on web.

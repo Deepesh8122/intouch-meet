@@ -5,7 +5,7 @@ import { _authorizeDropbox } from './functions';
 import logger from './logger';
 
 /**
- * Action to authorize the Jitsi Recording app in dropbox.
+ * Action to authorize the InTouch Recording app in dropbox.
  *
  * @returns {Function}
  */

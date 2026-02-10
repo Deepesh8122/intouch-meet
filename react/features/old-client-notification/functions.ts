@@ -1,9 +1,9 @@
 import { browser } from '../base/lib-jitsi-meet';
 
 /**
- * Returns true if Jitsi Meet is running in too old jitsi-meet-electron app and false otherwise.
+ * Returns true if InTouch Meet is running in too old InTouch-meet-electron app and false otherwise.
  *
- * @returns {boolean} - True if Jitsi Meet is running in too old jitsi-meet-electron app and false otherwise.
+ * @returns {boolean} - True if InTouch Meet is running in too old InTouch-meet-electron app and false otherwise.
  */
 export function isOldJitsiMeetElectronApp() {
     if (!browser.isElectron()) {

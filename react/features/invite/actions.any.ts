@@ -82,7 +82,7 @@ export function invite(
         const { conference, password } = state['features/base/conference'];
 
         if (typeof conference === 'undefined') {
-            // Only keep invitees which can get an invite request from Jitsi UI
+            // Only keep invitees which can get an invite request from InTouch UI
             const jitsiInvitees = invitees.filter(({ type }) => type !== INVITE_TYPES.EMAIL);
 
             // Invite will fail before CONFERENCE_JOIN. The request will be

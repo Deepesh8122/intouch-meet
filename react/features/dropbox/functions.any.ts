@@ -23,7 +23,7 @@ type DropboxUserData = {
  * Fetches information about the user's dropbox account.
  *
  * @param {string} token - The dropbox access token.
- * @param {string} appKey - The Jitsi Recorder dropbox app key.
+ * @param {string} appKey - The InTouch Recorder dropbox app key.
  * @returns {Promise<DropboxUserData|undefined>}
  */
 export function getDropboxData(

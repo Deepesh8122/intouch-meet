@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Жиналыс сілтемесін қосу",
-        "confirmAddLink": "Осы іс-шараға Jitsi сілтемесін қосқыңыз келе ме?",
+        "confirmAddLink": "Осы іс-шараға InTouch сілтемесін қосқыңыз келе ме?",
         "error": {
             "appConfiguration": "Күнтізбе интеграциясы дұрыс конфигурацияланбаған.",
             "generic": "Қате орын алды. Күнтізбе параметрлерін тексеріңіз немесе күнтізбені жаңартып көріңіз.",
@@ -514,7 +514,7 @@
         "token": "токен",
         "tokenAuthFailed": "Кешіріңіз, сізге бұл қоңырауға қосылуға рұқсат жоқ.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Жарамсыз `aud` мәні. Ол `jitsi` болуы керек.",
+            "audInvalid": "Жарамсыз `aud` мәні. Ол `InTouch` болуы керек.",
             "contextNotFound": "`context` объектісі жүктемеде жоқ.",
             "expInvalid": "Жарамсыз `exp` мәні.",
             "featureInvalid": "Жарамсыз мүмкіндік: {{feature}}, әлі іске асырылмаған болуы мүмкін.",
@@ -606,7 +606,7 @@
         "answer": "Жауап беру",
         "audioCallTitle": "Кіріс қоңырау",
         "decline": "Елемеу",
-        "productLabel": "Jitsi Meet-тен",
+        "productLabel": "InTouch Meet-тен",
         "videoCallTitle": "Кіріс бейне қоңырау"
     },
     "info": {
@@ -824,7 +824,7 @@
         "desktopMutedRemotelyTitle": "Экран бөлісуіңізді {{participantDisplayName}} тоқтатты",
         "disabledIframe": "Ендіру тек демо мақсаттарға арналған, сондықтан бұл қоңырау {{timeout}} минуттан кейін ажыратылады.",
         "disabledIframeSecondaryNative": "{{domain}} ендіру тек демо мақсаттарға арналған, сондықтан бұл қоңырау {{timeout}} минуттан кейін ажыратылады.",
-        "disabledIframeSecondaryWeb": "{{domain}} ендіру тек демо мақсаттарға арналған, сондықтан бұл қоңырау {{timeout}} минуттан кейін ажыратылады. Өндірістік ендіру үшін <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a> пайдаланыңыз!",
+        "disabledIframeSecondaryWeb": "{{domain}} ендіру тек демо мақсаттарға арналған, сондықтан бұл қоңырау {{timeout}} минуттан кейін ажыратылады. Өндірістік ендіру үшін <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>InTouch as a Service</a> пайдаланыңыз!",
         "disconnected": "ажыратылды",
         "displayNotifications": "Хабарландыруларды көрсету",
         "dontRemindMe": "Маған еске салмау",
@@ -876,7 +876,7 @@
         "noiseSuppressionDesktopAudioDescription": "Жұмыс үстелінің аудиосын бөлісу кезінде қосымша шуды басуды қосу мүмкін емес, оны өшіріп, қайталап көріңіз.",
         "noiseSuppressionFailedTitle": "Қосымша шуды басуды бастау сәтсіз аяқталды",
         "noiseSuppressionStereoDescription": "Қосымша шуды басу қазіргі уақытта стерео аудиомен қолдау көрсетілмейді.",
-        "oldElectronClientDescription1": "Сіз белгілі қауіпсіздік осалдықтары бар Jitsi Meet клиентінің ескі нұсқасын пайдаланып тұрған сияқтысыз. Біздің ",
+        "oldElectronClientDescription1": "Сіз белгілі қауіпсіздік осалдықтары бар InTouch Meet клиентінің ескі нұсқасын пайдаланып тұрған сияқтысыз. Біздің ",
         "oldElectronClientDescription2": "соңғы нұсқаға",
         "oldElectronClientDescription3": " қазір жаңартыңыз!",
         "openChat": "Чатты ашу",
@@ -1661,15 +1661,15 @@
         "go": "АЛҒА",
         "goSmall": "АЛҒА",
         "headerSubtitle": "Қауіпсіз және жоғары сапалы жиналыстар",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "InTouch Meet",
         "info": "Теру ақпараты",
-        "jitsiOnMobile": "Мобильді құрылғыдағы Jitsi – қолданбаларымызды жүктеп алып, кез келген жерден жиналыс бастаңыз",
+        "jitsiOnMobile": "Мобильді құрылғыдағы InTouch – қолданбаларымызды жүктеп алып, кез келген жерден жиналыс бастаңыз",
         "join": "ҚҰРУ / ҚОСЫЛУ",
         "logo": {
             "calendar": "Күнтізбе логотипі",
             "desktopPreviewThumbnail": "Жұмыс үстелін алдын ала қарау нобайы",
             "googleLogo": "Google логотипі",
-            "logoDeepLinking": "Jitsi meet логотипі",
+            "logoDeepLinking": "InTouch meet логотипі",
             "microsoftLogo": "Microsoft логотипі",
             "policyLogo": "Саясат логотипі"
         },

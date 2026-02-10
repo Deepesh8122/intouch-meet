@@ -3,7 +3,7 @@ local ext_services = module:depends("external_services");
 local get_services = ext_services.get_services;
 local services_xml = ext_services.services_xml;
 
--- Jitsi Connection Optimization
+-- InTouch Connection Optimization
 -- gathers needed information and pushes it with a message to clients
 -- this way we skip 4 request responses during every client setup
 

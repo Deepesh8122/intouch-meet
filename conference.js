@@ -171,7 +171,7 @@ let room;
 
 /*
  * Logic to open a desktop picker put on the window global for
- * lib-jitsi-meet to detect and invoke.
+ * lib-InTouch-meet to detect and invoke.
  *
  * TODO: remove once the Electron SDK supporting gDM has been out for a while.
  */
@@ -793,7 +793,7 @@ export default {
      * Retrieve list of conference participants (without local user).
      * @returns {JitsiParticipant[]}
      *
-     * NOTE: Used by jitsi-meet-torture!
+     * NOTE: Used by InTouch-meet-torture!
      */
     listMembers() {
         return room.getParticipants();
@@ -948,7 +948,7 @@ export default {
      * desire to keep room private to this instance and (2) the need of other
      * modules to send and receive commands to and from participants.
      * Eventually, this instance remains in control with respect to the
-     * decision whether the Command(s) API of room (i.e. lib-jitsi-meet's
+     * decision whether the Command(s) API of room (i.e. lib-InTouch-meet's
      * JitsiConference) is to be used in the implementation of the Command(s)
      * API of this instance.
      */

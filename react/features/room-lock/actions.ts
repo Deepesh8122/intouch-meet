@@ -94,7 +94,7 @@ export function _openPasswordRequiredPrompt(conference: IJitsiConference) {
 }
 
 /**
- * Unlocks the current jitsi conference.
+ * Unlocks the current InTouch conference.
  *
  * @returns {Function}
  */

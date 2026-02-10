@@ -19,9 +19,17 @@ STYLES_MAIN = css/main.scss
 ifeq ($(OS),Windows_NT)
 	WEBPACK = .\node_modules\.bin\webpack --progress
 	WEBPACK_DEV_SERVER = .\node_modules\.bin\webpack serve --mode development --progress
+	RM = rmdir /s /q
+	MKDIR = mkdir
+	CP = copy
+	XCOPY = xcopy /E /I /Q
 else
 	WEBPACK = ./node_modules/.bin/webpack --progress
 	WEBPACK_DEV_SERVER = ./node_modules/.bin/webpack serve --mode development --progress
+	RM = rm -fr
+	MKDIR = mkdir -p
+	CP = cp
+	XCOPY = cp -R
 endif
 
 all: compile deploy
@@ -31,14 +39,14 @@ compile: clean
 	$(WEBPACK)
 
 clean:
-	rm -fr $(BUILD_DIR)
+	$(RM) $(BUILD_DIR)
 
 .NOTPARALLEL:
 deploy: deploy-init deploy-appbundle deploy-rnnoise-binary deploy-excalidraw deploy-tflite deploy-meet-models deploy-lib-jitsi-meet deploy-olm deploy-tf-wasm deploy-css deploy-local deploy-face-landmarks
 
 deploy-init:
-	rm -fr $(DEPLOY_DIR)
-	mkdir -p $(DEPLOY_DIR)
+	$(RM) $(DEPLOY_DIR) 2>nul || true
+	$(MKDIR) $(DEPLOY_DIR)
 
 deploy-appbundle:
 	cp \
@@ -86,14 +94,10 @@ deploy-tflite:
 		$(DEPLOY_DIR)
 
 deploy-excalidraw:
-	cp -R \
-		$(EXCALIDRAW_DIR) \
-		$(DEPLOY_DIR)/
+	$(XCOPY) $(EXCALIDRAW_DIR) $(DEPLOY_DIR)\excalidraw-assets
 
 deploy-excalidraw-dev:
-	cp -R \
-		$(EXCALIDRAW_DIR_DEV) \
-		$(DEPLOY_DIR)/
+	$(XCOPY) $(EXCALIDRAW_DIR_DEV) $(DEPLOY_DIR)\excalidraw-assets-dev
 
 deploy-meet-models:
 	cp \
@@ -111,7 +115,7 @@ deploy-face-landmarks:
 deploy-css:
 	$(NODE_SASS) $(STYLES_MAIN) $(STYLES_BUNDLE) && \
 	$(CLEANCSS) --skip-rebase $(STYLES_BUNDLE) > $(STYLES_DESTINATION) && \
-	rm $(STYLES_BUNDLE)
+	del $(STYLES_BUNDLE)
 
 deploy-local:
 	([ ! -x deploy-local.sh ] || ./deploy-local.sh)

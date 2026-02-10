@@ -5,6 +5,7 @@ import { connect } from 'react-redux';
 import { IReduxState } from '../../../../app/types';
 import { isVpaasMeeting } from '../../../../jaas/functions';
 import { translate } from '../../../i18n/functions';
+import { back } from 'react-emoji-render/data/aliases';
 
 /**
  * The CSS style of the element with CSS class {@code rightwatermark}.
@@ -31,12 +32,12 @@ interface IProps extends WithTranslation {
     _logoUrl?: string;
 
     /**
-     * If the Jitsi watermark should be displayed or not.
+     * If the InTouch watermark should be displayed or not.
      */
     _showJitsiWatermark: boolean;
 
     /**
-     * The default value for the Jitsi logo URL.
+     * The default value for the InTouch logo URL.
      */
     defaultJitsiLogoURL?: string;
 
@@ -146,7 +147,7 @@ class Watermarks extends Component<IProps, State> {
     }
 
     /**
-     * Renders a Jitsi watermark if it is enabled.
+     * Renders a InTouch watermark if it is enabled.
      *
      * @private
      * @returns {ReactElement|null}
@@ -164,8 +165,15 @@ class Watermarks extends Component<IProps, State> {
 
         if (_showJitsiWatermark) {
             const style = {
-                backgroundImage: `url(${_logoUrl})`,
-                position: _logoLink ? 'static' : 'absolute'
+                backgroundImage: `url('./images/logo-intouch.png')`,
+                position: _logoLink ? 'static' : 'absolute',
+                backgroundPosition: 'center',
+                backgroundColor: 'white',
+                padding: '5px',
+                borderRadius: '6px',
+                width: '145px',
+                height: '48px',
+                backgroundSize: '135px',
             } as const;
 
             reactElement = (<div
@@ -201,9 +209,9 @@ class Watermarks extends Component<IProps, State> {
             return (
                 <a
                     className = 'poweredby'
-                    href = 'http://jitsi.org'
+                    href = 'https://ha1ltd.com/'
                     target = '_new'>
-                    <span>{ t('poweredby') } jitsi.org</span>
+                    <span>{ t('poweredby') } InTouch.org</span>
                 </a>
             );
         }
@@ -230,6 +238,7 @@ function _mapStateToProps(state: IReduxState, ownProps: any) {
     } = state['features/dynamic-branding'];
     const isValidRoom = state['features/base/conference'].room;
     const { defaultLogoUrl } = state['features/base/config'];
+    console.log("des",interfaceConfig);
     const {
         JITSI_WATERMARK_LINK,
         SHOW_JITSI_WATERMARK

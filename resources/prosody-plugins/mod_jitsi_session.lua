@@ -1,4 +1,4 @@
--- Jitsi session information
+-- InTouch session information
 -- Copyright (C) 2021-present 8x8, Inc.
 module:set_global();
 

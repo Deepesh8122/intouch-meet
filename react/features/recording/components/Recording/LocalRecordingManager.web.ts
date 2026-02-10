@@ -116,7 +116,7 @@ const LocalRecordingManager: ILocalRecordingManager = {
     },
 
     /**
-     * Returns a filename based ono the Jitsi room name in the URL and timestamp.
+     * Returns a filename based ono the InTouch room name in the URL and timestamp.
      *
      * @returns {string}
      * */

@@ -12,7 +12,7 @@ export const AUDIO_DEVICE_BUTTON_ENABLED = 'audio-device-button.enabled';
 
 /**
  * Flag indicating if the SDK should not require the audio focus.
- * Used by apps that do not use Jitsi audio.
+ * Used by apps that do not use InTouch audio.
  * Default: disabled (false).
  */
 export const AUDIO_FOCUS_DISABLED = 'audio-focus.disabled';

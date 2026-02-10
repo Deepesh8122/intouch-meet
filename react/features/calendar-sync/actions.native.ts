@@ -12,7 +12,7 @@ import { addLinkToCalendarEntry } from './functions.native';
 export * from './actions.any';
 
 /**
- * Asks confirmation from the user to add a Jitsi link to the calendar event.
+ * Asks confirmation from the user to add a InTouch link to the calendar event.
  *
  * @param {string} eventId - The event id.
  * @returns {{

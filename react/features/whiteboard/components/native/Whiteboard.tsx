@@ -30,7 +30,7 @@ import styles, { INDICATOR_COLOR } from './styles';
 interface IProps extends WithTranslation {
 
     /**
-     * The current Jitsi conference.
+     * The current InTouch conference.
      */
     conference?: IJitsiConference;
 

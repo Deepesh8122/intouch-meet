@@ -295,7 +295,7 @@ const googleApi = {
     },
 
     /**
-     * Checks conference data for jitsi conference solution and returns
+     * Checks conference data for InTouch conference solution and returns
      * its video url.
      *
      * @param {Object} conferenceData - The conference data of the event.

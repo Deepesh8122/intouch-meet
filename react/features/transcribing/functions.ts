@@ -27,7 +27,7 @@ export function determineTranscriptionLanguage(config: IConfig) {
 
     // Depending on the config either use the language that the app automatically detected or the hardcoded
     // config BCP47 value.
-    // Jitsi language detections uses custom language tags, but the transcriber expects BCP-47 compliant tags,
+    // InTouch language detections uses custom language tags, but the transcriber expects BCP-47 compliant tags,
     // we use a mapping file to convert them.
     const bcp47Locale = transcription?.useAppLanguage ?? true
         ? JITSI_TO_BCP47_MAP[i18next.language as keyof typeof JITSI_TO_BCP47_MAP]

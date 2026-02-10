@@ -1,6 +1,6 @@
-# <p align="center">Jitsi Meet</p>
+# <p align="center">InTouch Meet</p>
 
-Jitsi Meet is a set of Open Source projects which empower users to use and deploy
+InTouch Meet is a set of Open Source projects which empower users to use and deploy
 video conferencing platforms with state-of-the-art video quality and features.
 
 <hr />
@@ -11,7 +11,7 @@ video conferencing platforms with state-of-the-art video quality and features.
 
 <hr />
 
-Amongst others here are the main features Jitsi Meet offers:
+Amongst others here are the main features InTouch Meet offers:
 
 * Support for all current browsers
 * Mobile applications
@@ -25,9 +25,9 @@ Amongst others here are the main features Jitsi Meet offers:
 
 And many more!
 
-## Using Jitsi Meet
+## Using InTouch Meet
 
-Using Jitsi Meet is straightforward, as it's browser based. Head over to [meet.jit.si](https://meet.jit.si) and give it a try. It's scalable and free to use. All you need is a Google, Facebook or GitHub account in order to start a meeting. All browsers are supported!
+Using InTouch Meet is straightforward, as it's browser based. Head over to [meet.jit.si](https://meet.jit.si) and give it a try. It's scalable and free to use. All you need is a Google, Facebook or GitHub account in order to start a meeting. All browsers are supported!
 
 Using mobile? No problem, you can either use your mobile web browser or our fully-featured
 mobile apps:
@@ -44,37 +44,37 @@ developed you can also sign up for our open beta testing here:
 
 ## Running your own instance
 
-If you'd like to run your own Jitsi Meet installation head over to the [handbook](https://jitsi.github.io/handbook/docs/devops-guide/) to get started.
+If you'd like to run your own InTouch Meet installation head over to the [handbook](https://jitsi.github.io/handbook/docs/devops-guide/) to get started.
 
 We provide Debian packages and a comprehensive Docker setup to make deployments as simple as possible.
 Advanced users also have the possibility of building all the components from source.
 
 You can check the latest releases [here](https://jitsi.github.io/handbook/docs/releases).
 
-## Jitsi as a Service
+## InTouch as a Service
 
 If you like the branding capabilities of running your own instance but you'd like
 to avoid dealing with the complexity of monitoring, scaling and updates, JaaS might be
 for you.
 
-[8x8 Jitsi as a Service (JaaS)](https://jaas.8x8.vc) is an enterprise-ready video meeting platform that allows developers, organizations and businesses to easily build and deploy video solutions. With Jitsi as a Service we now give you all the power of Jitsi running on our global platform so you can focus on building secure and branded video experiences.
+[8x8 InTouch as a Service (JaaS)](https://jaas.8x8.vc) is an enterprise-ready video meeting platform that allows developers, organizations and businesses to easily build and deploy video solutions. With InTouch as a Service we now give you all the power of InTouch running on our global platform so you can focus on building secure and branded video experiences.
 
 ## Documentation
 
-All the Jitsi Meet documentation is available in [the handbook](https://jitsi.github.io/handbook/).
+All the InTouch Meet documentation is available in [the handbook](https://jitsi.github.io/handbook/).
 
 ## Security
 
-For a comprehensive description of all Jitsi Meet's security aspects, please check [this link](https://jitsi.org/security).
+For a comprehensive description of all InTouch Meet's security aspects, please check [this link](https://jitsi.org/security).
 
-For a detailed description of Jitsi Meet's End-to-End Encryption (E2EE) implementation,
+For a detailed description of InTouch Meet's End-to-End Encryption (E2EE) implementation,
 please check [this link](https://jitsi.org/e2ee-whitepaper/).
 
-For information on reporting security vulnerabilities in Jitsi Meet, see [SECURITY.md](./SECURITY.md).
+For information on reporting security vulnerabilities in InTouch Meet, see [SECURITY.md](./SECURITY.md).
 
 ## Contributing
 
-If you are looking to contribute to Jitsi Meet, first of all, thank you! Please
+If you are looking to contribute to InTouch Meet, first of all, thank you! Please
 see our [guidelines for contributing](CONTRIBUTING.md).
 
 <br />
@@ -82,6 +82,6 @@ see our [guidelines for contributing](CONTRIBUTING.md).
 
 <footer>
 <p align="center" style="font-size: smaller;">
-Built with ❤️ by the Jitsi team at <a href="https://8x8.com" target="_blank">8x8</a> and our community.
+Built with ❤️ by the InTouch team at <a href="https://8x8.com" target="_blank">8x8</a> and our community.
 </p>
 </footer>

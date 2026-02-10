@@ -21,7 +21,7 @@ interface IProps extends WithTranslation {
 }
 
 /**
- * Component for the add Jitsi link confirm dialog.
+ * Component for the add InTouch link confirm dialog.
  */
 class UpdateCalendarEventDialog extends Component<IProps> {
     /**

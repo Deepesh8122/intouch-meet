@@ -82,7 +82,7 @@
     },
     "calendarSync": {
         "addMeetingURL": "Een link naar een vergadering toevoegen",
-        "confirmAddLink": "Wilt u een Jitsi-link aan deze afspraak toevoegen?",
+        "confirmAddLink": "Wilt u een InTouch-link aan deze afspraak toevoegen?",
         "error": {
             "appConfiguration": "De agenda-integratie is niet juist ingesteld.",
             "generic": "Er is een fout opgetreden. Controleer uw agenda-instellingen of vernieuw de agenda.",
@@ -517,7 +517,7 @@
         "token": "token",
         "tokenAuthFailed": "Sorry, u mag niet deelnemen aan dit gesprek.",
         "tokenAuthFailedReason": {
-            "audInvalid": "Ongeldige `aud`-waarde. Het zou `jitsi` moeten zijn.",
+            "audInvalid": "Ongeldige `aud`-waarde. Het zou `InTouch` moeten zijn.",
             "contextNotFound": "Het object `context` ontbreekt aan de lading.",
             "expInvalid": "Ongeldige `exp`-warde.",
             "featureInvalid": "Ongeldige functie: {{feature}}, waarschijnlijk nog niet geïmplementeerd.",
@@ -609,7 +609,7 @@
         "answer": "Beantwoorden",
         "audioCallTitle": "Inkomende oproep",
         "decline": "Negeren",
-        "productLabel": "vanuit Jitsi Meet",
+        "productLabel": "vanuit InTouch Meet",
         "videoCallTitle": "Inkomende video-oproep"
     },
     "info": {
@@ -827,7 +827,7 @@
         "desktopMutedRemotelyTitle": "Uw schermdeling is gestopt door {{participantDisplayName}}",
         "disabledIframe": "Insluiten is alleen bedoeld voor demo-doeleinden, dus deze oproep wordt binnen {{timeout}} minuten verbroken.",
         "disabledIframeSecondaryNative": "Het insluiten van {{domein}} is alleen bedoeld voor demo-doeleinden, dus deze oproep wordt binnen {{timeout}} minuten verbroken.",
-        "disabledIframeSecondaryWeb": "Het insluiten van {{domein}} is alleen bedoeld voor demo-doeleinden, dus deze oproep wordt binnen {{timeout}} minuten verbroken. Gebruik alstublieft <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>Jitsi as a Service</a> voor productie-insluiting!",
+        "disabledIframeSecondaryWeb": "Het insluiten van {{domein}} is alleen bedoeld voor demo-doeleinden, dus deze oproep wordt binnen {{timeout}} minuten verbroken. Gebruik alstublieft <a href='{{jaasDomain}}' rel='noopener noreferrer' target='_blank'>InTouch as a Service</a> voor productie-insluiting!",
         "disconnected": "verbinding verbroken",
         "displayNotifications": "Toon meldingen voor",
         "dontRemindMe": "Herinner me er niet aan",
@@ -879,7 +879,7 @@
         "noiseSuppressionDesktopAudioDescription": "Extra ruisonderdrukking kan niet worden ingeschakeld tijdens het delen van desktopaudio. Schakel dit uit en probeer het opnieuw.",
         "noiseSuppressionFailedTitle": "Kan geen extra ruisonderdrukking starten",
         "noiseSuppressionStereoDescription": "Extra ruisonderdrukking wordt momenteel niet ondersteund met stereo-audio.",
-        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van Jitsi Meet gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
+        "oldElectronClientDescription1": "Het lijkt erop dat u een oude versie van InTouch Meet gebruikt, waarvan beveiligingskwetsbaarheden bekend zijn. Zorg ervoor dat u nu bijwerkt naar de ",
         "oldElectronClientDescription2": "nieuwste versie",
         "oldElectronClientDescription3": "!",
         "openChat": "Chat openen",
@@ -1667,15 +1667,15 @@
         "go": "GAAN",
         "goSmall": "GAAN",
         "headerSubtitle": "Veilige vergaderingen van hoge kwaliteit",
-        "headerTitle": "Jitsi Meet",
+        "headerTitle": "InTouch Meet",
         "info": "Informatie",
-        "jitsiOnMobile": "Jitsi op de mobiele telefoon - download onze apps en start overal een vergadering",
+        "jitsiOnMobile": "InTouch op de mobiele telefoon - download onze apps en start overal een vergadering",
         "join": "AANMAKEN / DEELNEMEN",
         "logo": {
             "calendar": "Agenda logo",
             "desktopPreviewThumbnail": "Desktop preview thumbnail",
             "googleLogo": "Google logo",
-            "logoDeepLinking": "Jitsi meet logo",
+            "logoDeepLinking": "InTouch meet logo",
             "microsoftLogo": "Microsoft logo",
             "policyLogo": "Policy logo"
         },

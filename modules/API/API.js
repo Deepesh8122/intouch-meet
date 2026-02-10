@@ -700,7 +700,7 @@ function initCommands() {
          * @param { string } arg.rtmpStreamKey - The RTMP stream key.
          * @param { string } arg.rtmpBroadcastID - The RTMP broadcast ID.
          * @param { boolean } arg.shouldShare - Whether the recording should be shared with the participants or not.
-         * Only applies to certain jitsi meet deploys.
+         * Only applies to certain InTouch meet deploys.
          * @param { string } arg.youtubeStreamKey - The youtube stream key.
          * @param { string } arg.youtubeBroadcastID - The youtube broadcast ID.
          * @param { Object } arg.extraMetadata - Any extra metadata params for file recording.
@@ -1156,7 +1156,7 @@ function shouldBeEnabled() {
         typeof API_ID === 'number'
 
             // XXX Enable the API when a JSON Web Token (JWT) is specified in
-            // the location/URL because then it is very likely that the Jitsi
+            // the location/URL because then it is very likely that the InTouch
             // Meet (Web) app is being used by an external/wrapping (Web) app
             // and, consequently, the latter will need to communicate with the
             // former. (The described logic is merely a heuristic though.)
@@ -1218,15 +1218,15 @@ function sanitizeMouseEvent(event) {
 
 /**
  * Implements API class that communicates with external API class and provides
- * interface to access Jitsi Meet features by external applications that embed
- * Jitsi Meet.
+ * interface to access InTouch Meet features by external applications that embed
+ * InTouch Meet.
  */
 class API {
     _enabled;
 
     /**
      * Initializes the API. Setups message event listeners that will receive
-     * information from external applications that embed Jitsi Meet. It also
+     * information from external applications that embed InTouch Meet. It also
      * sends a message to the external application that API is initialized.
      *
      * @param {Object} options - Optional parameters.
@@ -1647,7 +1647,7 @@ class API {
      *
      * @param {string} id - User id.
      * @param {string} displayname - User nickname.
-     * @param {string} formattedDisplayName - The display name shown in Jitsi
+     * @param {string} formattedDisplayName - The display name shown in InTouch
      * meet's UI for the user.
      * @returns {void}
      */

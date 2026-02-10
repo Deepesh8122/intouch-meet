@@ -15,7 +15,7 @@ import logger from './logger';
 export * from './functions.any';
 
 /**
- * Adds a Jitsi link to a calendar entry.
+ * Adds a InTouch link to a calendar entry.
  *
  * @param {Object} state - The Redux state.
  * @param {string} id - The ID of the calendar entry.

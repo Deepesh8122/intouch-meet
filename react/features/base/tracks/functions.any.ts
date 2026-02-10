@@ -202,7 +202,7 @@ export function getLocalJitsiAudioTrack(state: IReduxState) {
 }
 
 /**
- * Returns audio settings from the local Jitsi audio track.
+ * Returns audio settings from the local InTouch audio track.
  *
  * @param {IReduxState} state - The Redux state.
  * @returns {IAudioSettings} The extracted audio settings.

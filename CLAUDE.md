@@ -32,7 +32,7 @@ TypeScript configuration is split between web and native platforms with separate
 ## Architecture Overview
 
 ### Multi-Platform Structure
-Jitsi Meet supports both web and React Native platforms with platform-specific file extensions and directories:
+InTouch Meet supports both web and React Native platforms with platform-specific file extensions and directories:
 - `.web.ts/.web.tsx` - Web-specific implementations
 - `.native.ts/.native.tsx` - React Native-specific implementations
 - `.any.ts/.any.tsx` - Shared cross-platform code
@@ -261,7 +261,7 @@ react/features/sample/
 - TypeScript configs ensure proper platform targeting
 
 ## External Resources
-- [Jitsi Handbook](https://jitsi.github.io/handbook/) - Comprehensive documentation
+- [InTouch Handbook](https://jitsi.github.io/handbook/) - Comprehensive documentation
 - [Community Forum](https://community.jitsi.org/) - Ask questions and get support
 - [Architecture Guide](https://jitsi.github.io/handbook/docs/architecture) - System overview
 - [Contributing Guidelines](https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-contributing/) - Detailed contribution process
